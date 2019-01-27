@@ -5,7 +5,7 @@ import os
 baseURL = 'http://api.scryfall.com/cards/search?q=set:'
 
 userTypedMTGSetShortName = input("Choose MtG Set Short Name (like grn for Guild of Ravnica): ")
-userSetImageSize = input("What image size do you want?")
+userSetImageSize = input("What image size do you want?(small,large,png)")
 
 mtgSetShortName = userTypedMTGSetShortName #Short name of your desired Magic the Gathering Sets from scryfall.com
 imageSize = userSetImageSize #Set your desired image size. Values: small, normal, large, png, art_crop, border_crop
